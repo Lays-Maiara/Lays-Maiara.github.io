@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(22, 62, 67);
+}
+
+h2 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 38px;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+form {
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20%;
+  flex-direction: column;
+  gap: 15px;
+  background-color: rgba(128, 206, 215, 0.87);
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 10px 50px;
+}
+
+body {
+  background-color: #e6e6fa;
+  background-image: url('../img/floripa-foto.jpeg');
+  background-position: center;
+}
+
+fieldset {
+  padding: 10px;
+  width: 400px;
+  border-color: rgb(22, 62, 67);
+  border-width: 1px;
+}
+
+legend {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.opcoes-em-linha {
+  display: flex;
+  justify-content: space-around;
+}
+
+.centralizar {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.botoes {
+  display: flex;
+  gap: 12px;
+}
+
+input:hover,
+select:hover,
+button:hover {
+  transform: scale(1.1);
+}
+
+input[type='radio']:hover,
+input[type='checkbox']:hover {
+  transform: scale(1.2);
+}
+
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+input,
+select,
+button {
+  background-color: #e1f3f5;
+  border: 1px solid;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.input-com-label {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
