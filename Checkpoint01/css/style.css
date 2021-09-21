@@ -27,9 +27,6 @@ h1 {
   align-items: center;
 }
 
-header {
-}
-
 h2 {
   color: black;
   font-family: 'Roboto', sans-serif;
@@ -54,4 +51,50 @@ li {
 img {
   width: 50px;
   margin-left: 20px;
+}
+
+a img {
+  width: 35px;
+}
+
+.center-video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 665px) and (max-width: 1320px) {
+  .center-video iframe {
+    width: 650px;
+    height: 366px;
+  }
+  .floripa {
+    height: 300px;
+  }
+}
+
+@media (max-width: 664px) {
+  .center-video iframe {
+    width: 400px;
+    height: 230px;
+  }
+  .floripa {
+    height: 200px;
+  }
+  h1 {
+    font-size: 30px;
+    height: 60px;
+    width: 280px;
+  }
+  p,
+  li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 420px) {
+  .center-video iframe {
+    width: 300px;
+    height: 168px;
+  }
 }
