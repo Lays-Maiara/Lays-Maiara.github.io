@@ -60,6 +60,7 @@ legend {
 .botoes {
   display: flex;
   gap: 12px;
+  cursor: pointer;
 }
 
 input:hover,
